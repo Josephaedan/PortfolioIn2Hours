@@ -63,3 +63,10 @@ body {
     width: auto;
     margin-right: 2em;
 }
+
+.project-image {
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    max-height: 20vw;
+    max-width: 30vw;
+}
