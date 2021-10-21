@@ -28,7 +28,7 @@ h1 {
     font-family: "Source Sans Pro", sans-serif !important;
     font-weight: 700;
     color: rgb(34, 117, 130);
-    font-size: 800%;
+    font-size: 600%;
 }
 
 p {
@@ -53,9 +53,11 @@ body {
     background-color: rgb(247, 255, 247);
 }
 
-.root {
+@media only screen and (min-width: 768px){
+    .root {
     margin-left: 10%;
     margin-right: 10%;
+    }
 }
 
 .icon {
