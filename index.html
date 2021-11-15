@@ -4,6 +4,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
+    <!--hello joseph-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
@@ -21,107 +22,182 @@
 <body id>
     <!-- Navbar -->
     <div id="root" class="root">
-        <div>
-            <div id="navbar">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid">
-                        <a class="navbar-brand px-3" style="font-size: 30px;" href="#">
-                            Jacob.
-                        </a>
-                        <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                            <ul class="navbar-nav ms-auto justify-content-end px-5">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#about-me">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Experience">Experience</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Projects">Projects</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
+        <div id="navbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand px-3" style="font-size: 30px;" href="#">
+                        Jacob.
+                    </a>
+                    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav ms-auto justify-content-end px-lg-5 px-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-me">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Experience">Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact">Contact</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container-lg-fluid py-lg-4">
+            <!-- Cover Section (Image + Introduction)-->
+            <div id="homepage" class="container-lg-fluid row vh-80 align-items-center justify-content-between py-lg-4 my-lg-5
+                mx-1">
+                <div class="col-md-auto col-lg-8">
+                    <h1 class="display-1 my-2">HI I'M JACOB TAN!</h1>
+                    <p class="my-5" style="font-size: 150%; color:black;">I am currently a <span
+                            class="text-warning">Year 2 Computer
+                            Science</span> student at NUS.</p>
+                    <p class="my-5" style="font-size: 159%; color:black;">Nothing excites me more than
+                        making projects to help people!</p>
+                    <p class="my-5" style="font-size: 150%; color:black;">Scroll down to learn more about
+                        me!
+                    </p>
+                </div>
+
+                <img src="image/Person.png" class="col-lg-3 d-none d-lg-block h-auto mx-4">
             </div>
 
-            <div class="container-fluid py-4">
-                <!-- Cover Section (Image + Introduction)-->
-                <div id="homepage" class="py-4">
-                    <div class="container-fluid">
-                        <div class="row vh-80 align-items-center justify-content-between my-5">
-                            <div class="col-md-auto col-lg-8">
-                                <h1 class="display-1 my-2">HI I'M JACOB TAN!</h1>
-                                <p class="my-5" style="font-size: 200%; color:black;">I am currently a Year 2 Computer Science student at NUS.</p>
-                                <p class="my-5" style="font-size: 200%; color:black;">Nothing excites me more than making projects to help people!</p>
-                                <p class="my-5" style="font-size: 200%; color:black;">Scroll down to learn more about me!
-                                </p>
-                            </div>
-
-                            <img src="image/Person.png" class="col-lg-3 d-none d-lg-block h-auto mx-4">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- About Me -->
-                <div id="about-me" class="py-4 vh-80">
-                    <!--About Me Header-->
-                    <div class="container-fluid d-flex align-content-center">
-                        <h1 id="about-me">
-                            <i class="bi bi-person-badge-fill mx-2"></i>About Me
-                        </h1>
-                    </div>
-                </div>
-
-                <!-- Experience -->
-                <div id="Experience" class="py-4 vh-80">
-                    <!--Experience header-->
-                    <h1 class="container-fluid d-flex my-3">
-                        <i class="bi bi-building mx-2"></i> Professional Experiences
+            <!-- About Me -->
+            <div id="about-me" class="py-4 vh-lg-80">
+                <!--About Me Header-->
+                <div class="container-fluid d-flex align-content-center">
+                    <h1 id="about-me">
+                        <i class="bi bi-person-badge-fill mx-2"></i>About Me
                     </h1>
-                    <!--1st Experience entry-->
-                    <div class="text-start py-3 mx-5">
-                        <div class="mx-4">
-                            <!--Experience entry title-->
-                            <h2>Betflix</h2>
-                            <div class="d-flex">
-                                <h3>Graphics Designer Intern</h3>
-                                <h3 class="px-2">| Jan 2021 - June 2021</h3>
-                            </div>
-                            <!--Experience entry description-->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet!
-                                <ul class="container-fluid">
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                </ul>
-                            </p>
+                </div>
+                <!--About Me Description-->
+                <div class="text-start py-lg-3 mx-5">
+                    <h2>
+                        Currently in my second year of Undergraduate at the National University of Singapore,
+                        I am a member of Google Student Developer Clubs and I strongly believe in #TechForGood. </h2>
+
+                    <h2 class="py-3"> My Interests include Website Development and
+                        Web Security. In my free time, I like to read books
+                        and watch documentaries. </h2>
+
+                    <!--Skills-->
+                    <h2>I have experience using:
+                        <ul class="container-fluid list-group list-group-horizontal list-unstyled"
+                            style="font-size: 50%;color:black;">
+                            <li>
+                                <img src="image/Adobe Photoshop.png" class="icon " />
+                                <p>Adobe<br>Photoshop</p>
+                            </li>
+                            <li class="px-2">
+                                <img src="image/Adobe Illustrator.png" class="icon" />
+                                <p>Adobe<br>Illustrator</p>
+                            </li>
+                            <li>
+                                <img src="image/csharp.png" class="icon" />
+                                <p>C#</p>
+                            </li>
+                            <li>
+                                <img src="image/ReactJS.png" class="icon" />
+                                <p>ReactJS</p>
+                            </li>
+
+                        </ul>
+
+                    </h2>
+                </div>
+
+
+            </div>
+
+            <!-- Experience -->
+            <div id="Experience" class="py-4 vh-80">
+                <!--Experience header-->
+                <h1 class="container-fluid d-flex my-3">
+                    <i class="bi bi-building mx-2"></i> Professional Experiences
+                </h1>
+                <!--1st Experience entry-->
+                <div class="text-start py-lg-3 mx-5">
+                    <div class="mx-4">
+                        <!--Experience entry title-->
+                        <h2>Betflix</h2>
+                        <div class="d-lg-flex">
+                            <h3>Graphics Designer Intern</h3>
+                            <h3 class="px-lg-2">(Jan 2021 - June 2021)</h3>
                         </div>
+                        <!--Experience entry description-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet!
+                        <ul class="container">
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                        </p>
                     </div>
-                    <!--2nd Experience entry-->
-                    <div class="text-start py-3 mx-5">
-                        <div class="mx-4">
-                            <!--Experience entry title-->
-                            <h2>Anazon</h2>
-                            <div class="d-flex">
-                                <h3>Software Engineer Intern </h3>
-                                <h3 class="px-2">| April 2020 - Dec 2020</h3>
-                            </div>
-                            <!--Experience entry description-->
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet!
-                                <ul class="container-fluid">
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                    <li>Lorem ipsum dolor sit amet.</li>
-                                </ul>
-                            </p>
+                </div>
+                <!--2nd Experience entry-->
+                <div class="text-start py-lg-3 mx-5">
+                    <div class="mx-4">
+                        <!--Experience entry title-->
+                        <h2>Anazon</h2>
+                        <div class="d-lg-flex">
+                            <h3>Software Engineer Intern </h3>
+                            <h3 class="px-lg-2">(April 2020 - Dec 2020)</h3>
                         </div>
+                        <!--Experience entry description-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, eveniet!
+                        <ul class="container">
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+            <!-- Projects -->
+            <div id="Projects" class="py-4 vh-80">
+                <!--Project header-->
+                <h1 class="container-fluid d-flex my-3">
+                    <i class="bi bi-box mx-2"></i> Past Projects
+                </h1>
+                <!--1st Project entry-->
+                <div class="d-lg-flex text-start py-lg-3 mx-5 justify-content-between">
+                    <!--Project description-->
+                    <div class="my-2 col-lg-6 px-lg-3">
+                        <!--Title of game + duration-->
+                        <div class="d-lg-flex">
+                            <h3>Plants Infestation</h3>
+                            <h3 class="px-lg-2">(Aug 2020 - Jan 2021)</h3>
+                        </div>
+                        <!--Game Description-->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur ab repellendus
+                            explicabo numquam doloremque! Unde doloremque nesciunt, modi tempora quam excepturi
+                            reprehenderit consequatur perspiciatis porro necessitatibus?
+                            Expedita ex velit nesciunt ipsam, assumenda necessitatibus veritatis. Nam quaerat dolore
+                            optio, illum aliquam sunt similique enim labore dolores omnis quas quod animi sapiente?
+                        </p>
+
+                        <p>Made with:
+                        <ul class="container-fluid list-group list-group-horizontal list-unstyled">
+                            <li><img src="image/ReactJS.png" class="icon" />
+                                <p>ReactJS</p>
+                            </li>
+                            <li>
+                                <img src="image/Adobe Photoshop.png" class="icon" />
+                                <p>Adobe<br>Photoshop</p>
+                            </li>
+                        </ul>
+                        </p>
                     </div>
                 </div>
 
